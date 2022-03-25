@@ -195,6 +195,9 @@ android {
             // the defaultConfig block instead. You still need to create this flavor.
             // Otherwise, all variants use the "dev" flavor configurations.
         }
+        green {
+            applicationIdSuffix ".green"
+        }
     }
 
 }
